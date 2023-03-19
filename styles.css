@@ -1,0 +1,79 @@
+:root {
+  font-style:Helvetica,sans-serif; 
+ }
+ /* enveloppe de l'image */
+ wrapper-picture { 
+   max-width: 150px;
+   display: inline-block;
+   padding: 0 0 85px;
+ }
+ 
+ .picture {
+   display: inline-block;
+   max-width: 100px;
+   border-radius: 15px;
+ }
+ /* attribue enveloppe de contenu */
+ .wrapper-content {
+   display: inline-block;
+   max-width: 400px;
+   padding: 20px;
+ }
+ /* attribue parti gauche */
+ .left-part {
+   display: inline-block;
+   background:#d08181;
+   padding: 20px; /* La marge interieur */
+   max-width: 500px;
+   height: 200%;
+ }
+ /* attribue icone */
+ .icone {
+   max-width: 35px;
+   height : 35px;
+   margin-right: 10px; /* La marge exterieur à droite */
+ }
+
+ /* attribue parti droite */
+
+ .right-part {
+   display: inline-block;
+   background:#edeaf0;
+   max-width: 57%;
+   padding: 190px;
+   height: 100%;
+   border: 100px;
+   height: 70px;
+ }
+ /* attribue nom */
+ h1.name  {
+   color: rgb(14, 13, 13);
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-align: left;
+ /* La taille de police de mon nom est en REM */
+   font-size: 25px;
+ }
+ /* attribue ligne de base */
+ h2.baseline {
+   margin: 0;
+   color: rgba(12, 12, 34, 0.926);
+   font-size: 18px;
+ }
+ /* Les raisons pour lesquels */
+ h3   {
+   text-transform:  uppercase;
+   letter-spacing: 2px;
+   text-align:right;
+ } 
+ 
+  ol {
+   text-align:  left;
+   color: rgb(8, 12, 8);
+ }
+ 
+ li {
+ line-height: 2;
+ }
+ 
+ 
