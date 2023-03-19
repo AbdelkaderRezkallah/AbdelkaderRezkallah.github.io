@@ -31,7 +31,9 @@
  .icone {
    max-width: 35px;
    height : 35px;
-   margin-right: 10px; /* La marge exterieur à droite */
+   margin-right: 10px;
+   border-radius: 15px;
+   /* La marge exterieur à droite */
  }
 
  /* attribue parti droite */
